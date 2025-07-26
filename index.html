@@ -12,8 +12,8 @@
     </style>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
-<body class="lg:mx-[150px] inter-normal ">
-    <header>
+<body class=" inter-normal">
+    <header class="lg:mx-[150px]">
         <nav class="flex items-center justify-between mt-[30px] padding">
             <img class="width-logo" src="assets/logo.png" alt="">
             <ul class="flex gap-x-[48px]">
@@ -27,7 +27,7 @@
     </header>
 <main>  
     <!-- banner section-->
- <section class="banner-container flex banner">
+ <section class="banner-container flex banner lg:mx-[150px]">
     <div class="banner-text pt-[160px]">
         <h1 class="text-[65px] font-bold noto-serif-normal banner-h1"><span class="text-[#000000]">ALWAYS</span> <span class="text-[#E95A08]">FRESH <br> FLOWERS</span></h1>
         <p class="text-[22px] font-normal text-[rgba(0, 0, 0, 0.5)] banner-p">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
@@ -38,7 +38,7 @@
 </section>
 <!-- Our planta section -->
 
-<section>
+<section class="lg:mx-[150px]">
     <div class="text-center mt-[12px]">
     <h4 class="card-header"><span class="text-[#E95A08] font-bold noto-serif-normal text-[50px]">Our </span> <span class="noto-serif-normal text-[#000000] font-bold text-[50px]">Plants</span></h4>
     <p class="text-[#rgba(0, 0, 0, 0.5)] font-normal text-[22px] card-description">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
@@ -113,7 +113,7 @@
 
 <!-- Flower and palnt lover section-->
 
-<section class="mt-[210px] flex gap-x-[65px] folower-plant-lover">
+<section class="mt-[210px] flex gap-x-[65px] folower-plant-lover lg:mx-[150px]">
 
    <div class="image-wrapper">
   <img class="flower-store flower-shop" src="assets/flower-store.png" alt="">
@@ -138,15 +138,15 @@
     </section>
 
 
-<section>
+<section class="lg:mx-[150px]">
 
-    <div class="pt-[130px]">
-         <h4 class="noto-serif-normal text-center text-[50px] font-bold"><span class="text-[#E95A08]">Latest</span>  Deals</h4>
-         <p class="font-normal text-[22px] text-[#000000] text-center">Indulge your senses with the beauty and fragrance of our fresh flower shop. From<br> classic roses to exotic blooms, we offer a wide variety of fresh.
+    <div class="pt-[130px] pad">
+         <h4 class="noto-serif-normal text-center text-[50px] font-bold latest-h"><span class="text-[#E95A08]">Latest</span>  Deals</h4>
+         <p class="font-normal text-[22px] text-[#000000] text-center latest-p">Indulge your senses with the beauty and fragrance of our fresh flower shop. From<br> classic roses to exotic blooms, we offer a wide variety of fresh.
         </p> 
     </div>
 
-    <div class="container pt-[120px]">
+    <div class="container pt-[120px] latest-img">
   <!-- Left column with Bloom and Ana -->
   <div class="left-column">
     <div class="image-box">
@@ -168,21 +168,71 @@
 
   <!-- Right image: Zabo -->
   <div class="image-box">
-    <img src="assets/deal-zabo.png" alt="Zabo Plant">
-    <div class="overlay">
-      <h2 class="noto-serif-normal font-bold text-[40px] text-[#FFFFFF] pt-[170px] px-[130px]">25% Off | Zabo Plant</h2>
-      <button class="underline text-[28px] text-[#FFFFFF] text-lg px-[240px]">Shop Now</button>
+    <img class="img-right" src="assets/deal-zabo.png" alt="Zabo Plant">
+    <div class="overlay overlay-img">
+      <h2 class="noto-serif-normal font-bold text-[40px] text-[#FFFFFF] pt-[170px] px-[130px] img-right img-off">25% Off | Zabo Plant</h2>
+      <button class="underline text-[28px] text-[#FFFFFF] text-lg px-[240px] img-shopnow">Shop Now</button>
     </div>
   </div>
 </div>
 
+</section>
+
+<!--Join section-->
+
+<section class="join-section">
+  <img src="assets/news-letter-bg.png" alt="" class="join-bg">
+  <div class="join-overlay">
+    <h2 class="join-title noto-serif-normal">Join the colorful Bunch</h2>
+    <div class="join-input-group">
+      <input type="email" placeholder="Write email" class="join-input">
+      <button class="join-button">Subscribe</button>
+    </div>
+  </div>
 </section>
     
 </main>
 
 
 
-<footer></footer>
+<footer class="lg:mx-[150px] footer ">
+
+<div class="footer mt-[50px] flex gap-x-[110px] py-[50px] footer-container">
+  <div class="w-[360px] gap">
+    <img src="assets/logo.png" alt="">
+    <p class="text-[22px] pt-[15px] text-[rgba(0, 0, 0, 0.5)]">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+  </div>
+
+  <div class="flex flex-col gap-y-[30px] text-[#6B7280] gap">
+    <a href="">Home</a>
+    <a href="">About Us</a>
+    <a href="">Blog</a>
+    <a href="">FAQ</a>
+    <a href="">Contact Us</a>
+
+  </div>
+   
+
+  <div class="flex flex-col gap-y-[30px] text-[#6B7280] gap">
+    <a href="">Features</a>
+   <a href="">Pricing</a>
+   <a href="">Privacy Policy</a>
+   <a href="">Terms of Service</a>
+   <a href="">Help Center</a>
+  </div>
+
+<!--logo section-->
+  <div class="flex flex-row gap-x-[24px] gap">
+   <img src="assets/icon-linkedin.png" alt="" class="w-[35px] h-[35px]">
+   <img src="assets/icon-twitter.png" alt="" class="w-[35px] h-[35px]">
+   <img src="assets/icon-facebook.png" alt="" class="w-[35px] h-[35px]">
+   <img src="assets/icon-youtube.png" alt="" class="w-[35px] h-[35px]">
+
+  </div>
+</div>
+
+
+</footer>
 
 
 </body>
