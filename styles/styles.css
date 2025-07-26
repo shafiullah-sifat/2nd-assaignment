@@ -1,0 +1,141 @@
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.noto-serif-normal{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* flower and plants */
+ .image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.icon-trust {
+  position: absolute;
+  left: 400px;
+  top: -90px;
+  width: 200px;
+}
+
+.flower-store {
+  width: 540px;
+  height: 600px;
+}
+
+
+/* responsive section */
+@media screen and (max-width: 576px){
+  
+     .padding{
+      padding: 65px 16px;
+     }
+    .width-logo{
+      width: 63px;
+      height: 38px;
+    }
+    .width-cart{
+      width: 113px;
+      height: 24px;
+    }
+    .li{
+      display: none;
+    }
+  /* banner section */
+ .banner{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+ 
+ }
+ .banner-img{
+  order: 1;
+  padding-top: 28px;
+  width: 100%;
+ }
+ .banner-text{
+  order: 2;
+  padding-top: 25px;
+  padding-left: 16px;
+  padding-right: 15px;
+  
+ }
+ .banner-h1{
+  font-size: 24px;
+ }
+ .banner-p{
+  font-size: 14px;
+ }
+
+ /* card section */
+
+
+
+ .card-header{
+  font-size: 24;
+
+ }
+ .card-description
+ {
+  font-size: 14px;
+  padding-left: 28.5px;
+  padding-right: 28.5px;
+ }
+ .card{
+  max-width: 175px;
+ }
+ .card-container{
+  padding-left: 14px;
+  padding-right: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+ }
+ .card-p{
+  font-size: 16px;
+   
+}
+.card-p2{
+
+  padding-bottom: 30px;
+}
+.card-button{
+  max-width: 170px;
+ 
+}
+
+/* flower plant lover */
+
+.trust-icon{
+  display: none;
+}
+.folower-plant-lover{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  padding-top: 40px;
+  padding-left: 17px;
+  padding-right: 15px;
+  max-width: 360px;
+}
+.flower-shop{
+  max-width: 358px;
+  padding-bottom: 18px;
+}
+.folower-plant-lover-h4{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.folower-plant-lover-ul{
+  font-size: 14px;
+  color: #000000;
+  max-width: 350px;
+ 
+ 
+
+}
+
+
+}
