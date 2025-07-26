@@ -25,10 +25,43 @@
   width: 540px;
   height: 600px;
 }
+/*  latest deal section */
+.container {
+      display: flex;
+      gap: 20px;
+    }
+
+    .left-column {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .image-box {
+      position: relative;
+      display: inline-block;
+    }
+
+    .image-box img {
+      display: block;
+      border-radius: 10px;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 65px;
+      left: 50px;
+    }
+
+    
 
 
 /* responsive section */
 @media screen and (max-width: 576px){
+  .pad{
+    padding-left: 14px;
+    padding-right: 17px;
+  }
   
      .padding{
       padding: 65px 16px;
@@ -136,6 +169,12 @@
  
 
 }
+/* letest deal */
 
+.latest-h{
+  font-size: 24px;
+  font: bold;
+  justify-items: center;
+}
 
 }

@@ -12,7 +12,7 @@
     </style>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
-<body class="lg:mx-[150px] inter-normal">
+<body class="lg:mx-[150px] inter-normal ">
     <header>
         <nav class="flex items-center justify-between mt-[30px] padding">
             <img class="width-logo" src="assets/logo.png" alt="">
@@ -141,21 +141,40 @@
 <section>
 
     <div class="pt-[130px]">
-    <h4 class="noto-serif-normal text-center text-[50px] font-bold"><span class="text-[#E95A08]">Latest</span>  Deals</h4>
-    <p class="font-normal text-[22px] text-[#000000] text-center">Indulge your senses with the beauty and fragrance of our fresh flower shop. From<br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+         <h4 class="noto-serif-normal text-center text-[50px] font-bold"><span class="text-[#E95A08]">Latest</span>  Deals</h4>
+         <p class="font-normal text-[22px] text-[#000000] text-center">Indulge your senses with the beauty and fragrance of our fresh flower shop. From<br> classic roses to exotic blooms, we offer a wide variety of fresh.
+        </p> 
     </div>
 
-    <div class="flex  gap-6 pt-[120px]">
-    <div class="flex flex-col gap-6">
+    <div class="container pt-[120px]">
+  <!-- Left column with Bloom and Ana -->
+  <div class="left-column">
+    <div class="image-box">
+      <img src="assets/deal-bloom.png" alt="Bloom Plant">
+      <div class="overlay">
+        <h2 class="noto-serif-normal font-bold text-[20px] text-[#FFFFFF]">60% Off | Bloom Plant</h2>
+        <button class="underline text-[16px] text-[#FFFFFF] text-lg px-[50px]">Shop Now</button>
+      </div>
+    </div>
 
-        <img class="rounded-lg " src="assets/deal-bloom.png" alt="">
-        <img class="rounded-lg" src="assets/deal-ana.png" alt="">
+    <div class="image-box">
+      <img src="assets/deal-ana.png" alt="Ana Plant">
+      <div class="overlay">
+        <h2 class="noto-serif-normal font-bold text-[20px] text-[#FFFFFF]">30% Off | Ana Plant</h2>
+        <button class="underline text-[16px] text-[#FFFFFF] text-lg px-[50px]">Shop Now</button>
+      </div>
     </div>
-    <div>
-        <img class="rounded-lg" src="assets/deal-zabo.png" alt="">
-    </div>
+  </div>
 
+  <!-- Right image: Zabo -->
+  <div class="image-box">
+    <img src="assets/deal-zabo.png" alt="Zabo Plant">
+    <div class="overlay">
+      <h2 class="noto-serif-normal font-bold text-[40px] text-[#FFFFFF] pt-[170px] px-[130px]">25% Off | Zabo Plant</h2>
+      <button class="underline text-[28px] text-[#FFFFFF] text-lg px-[240px]">Shop Now</button>
     </div>
+  </div>
+</div>
 
 </section>
     
