@@ -247,26 +247,35 @@
   grid-template-columns: repeat(1,1fr);
   padding-left: 17px;
 }
-.img-right{
-  width: 361px;
 
-}
-.img-off{
 
+.img-right {
+  max-width: 360px;
 }
 
-  
-.img-shopnow{
-
-font-size: 16px;
-padding-left: 50px;
+/* Properly center overlay text and button */
+.overlay-img {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 
 }
-.overlay-img{
-    position: absolute;
-    top: 20px;
-    left: 20px; 
-  }
+
+.overlay-img h2 {
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.overlay-img button {
+  font-size: 16px;
+  white-space: nowrap;
+}
+.all-img{
+  background: rgba(0, 0, 0, 0.6);
+}
+
   
   /* join section */
 
